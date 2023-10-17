@@ -15,7 +15,7 @@
   <link href="site.webmanifest" rel="manifest">
   <link href="icon.png" rel="apple-touch-icon">
   <!-- Place favicon.ico in the root directory -->
-  <link href="favicon.png" rel="shortcut icon" type="">
+  <link href="favicon.png" rel="shortcut icon" type="image/x-icon">
 
   <!--  links to stylesheets-->
   <link href="css/normalize.css" rel="stylesheet">
@@ -23,6 +23,16 @@
   <link href="css/reset.css" rel="stylesheet">
   <link href="css/nav.css" rel="stylesheet">
   <link href="css/preloader.css" rel="stylesheet">
+  <link href="css/variables.css" rel="stylesheet">
+
+  <link href="css/home.css" rel="stylesheet"/>
+  <link href="css/about.css" rel="stylesheet"/>
+  <link href="css/services.css" rel="stylesheet">
+  <link href="css/portfolio.css" rel="stylesheet"/>
+  <link href="css/blog.css" rel="stylesheet"/>
+  <link href="css/contact.css" rel="stylesheet"/>
+  <link href="css/style.css" rel="stylesheet"/>
+
 
   <!--  material icons google-->
   <link
@@ -78,7 +88,7 @@
 <div class="navigation">
   <ul role="list">
     <li class="list active">
-      <a href="#">
+      <a href="#" onclick="home()">
         <span class="icon">
         <span class="material-symbols-outlined">home_app_logo</span>
         </span>
@@ -86,15 +96,15 @@
       </a>
     </li>
     <li class="list">
-      <a href="#">
+      <a href="#" onclick="about()">
         <span class="icon">
         <span class="material-symbols-outlined">account_circle</span>
         </span>
-        <span class="text">PROFILE</span>
+        <span class="text">ABOUT</span>
       </a>
     </li>
     <li class="list">
-      <a href="#">
+      <a href="#" onclick="services()">
         <span class="icon">
           <i class=""></i>
         <span class="material-symbols-outlined">tune</span>
@@ -103,7 +113,15 @@
       </a>
     </li>
     <li class="list">
-      <a href="#">
+      <a href="#" onclick="portfolio()">
+        <span class="icon">
+        <span class="material-symbols-outlined">work_update</span>
+        </span>
+        <span class="text">PORTFOLIO</span>
+      </a>
+    </li>
+    <li class="list">
+      <a href="#" onclick="blog()">
         <span class="icon">
         <span class="material-symbols-outlined">rss_feed</span>
         </span>
@@ -111,36 +129,101 @@
       </a>
     </li>
     <li class="list">
-      <a href="#">
+      <a href="#" onclick="contact()">
         <span class="icon">
         <span class="material-symbols-outlined">contacts</span>
         </span>
         <span class="text">CONTACTS</span>
       </a>
     </li>
-    <li class="list">
-      <a href="#">
-        <span class="icon">
-        <span class="material-symbols-outlined">settings</span>
-        </span>
-        <span class="text">SETTINGS</span>
-      </a>
-    </li>
     <div class="indicator"></div>
   </ul>
 </div>
-<!--navigation javascript-->
-<script>
-  const list = document.querySelectorAll(".list")
+<!---->
+<div class="container">
 
-  function activeLink() {
+  <div class="layer layer1 active">
+    <div class="home main">
+      <p>HOME</p>
+    </div>
+  </div>
+
+  <div class="layer layer2">
+    <div class="about main">
+      <p>ABOUT</p>
+    </div>
+  </div>
+
+  <div class="layer layer3">
+    <div class="services main">
+      <p>SERVICES</p>
+    </div>
+  </div>
+
+  <div class="layer layer4">
+    <div class="portfolio main">
+      <p>PROJECTS</p>
+    </div>
+  </div>
+
+  <div class="layer layer5">
+    <div class="blog main">
+      <p>BLOG</p>
+    </div>
+  </div>
+
+  <div class="layer layer6">
+    <div class="contact main">
+      <p>CONTACTS</p>
+    </div>
+  </div>
+</div>
+  <!---->
+
+  <!--navigation javascript-->
+  <script>
+    const list = document.querySelectorAll(".list")
+
+    function activeLink() {
+      list.forEach((item) =>
+        item.classList.remove("active"));
+      this.classList.add("active")
+    }
+
     list.forEach((item) =>
-      item.classList.remove("active"));
-    this.classList.add("active")
-  }
+      item.addEventListener("click", activeLink));
+  </script>
 
-  list.forEach((item) =>
-    item.addEventListener("click", activeLink));
-</script>
+  <!-----------------LOCAL (HOME)----------------->
+  <script src="js/home.js"></script>
+  <!-----------------LOCAL (ABOUT)----------------->
+  <script src="js/about.js"></script>
+  <!-----------------LOCAL (SERVICES)----------------->
+  <script src="js/services.js"></script>
+  <!-----------------LOCAL (PORTFOLIO)----------------->
+  <script src="js/portfolio.js"></script>
+  <!-----------------LOCAL (BLOG)----------------->
+  <script src="js/blog.js"></script>
+  <!-----------------LOCAL (CONTACT)----------------->
+  <script src="js/contact.js"></script>
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
+  </script>
+  <script async src="https://www.google-analytics.com/analytics.js"></script>
 </body>
 </html>

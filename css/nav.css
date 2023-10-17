@@ -85,19 +85,6 @@ body {
   box-shadow: var(--box-shadow07);
 }
 
-/*.indicator::before {*/
-/*  content: '';*/
-/*  position: absolute;*/
-/*  top: 30px;*/
-/*  left: -20px;*/
-/*  width: 30px;*/
-/*  height: 30px;*/
-/*  background: transparent;*/
-/*  -webkit-border-radius: 50%;*/
-/*  -moz-border-radius: 50%;*/
-/*  border-radius: 50%;*/
-/*  box-shadow: 15px 18px  #000;*/
-/*}*/
 .navigation ul li:nth-child(1).active ~ .indicator {
   transform: translateX(0);
 }
