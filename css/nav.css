@@ -50,7 +50,7 @@ body {
   line-height: 65px;
   font-size: 2em;
   padding-bottom: 12px;
-  transition: 1s ease-in;
+  transition: 0.5s ease-in;
 }
 
 .navigation ul li.active a .icon {
@@ -81,7 +81,7 @@ body {
   background: var(--bg01);
   border-radius: 50%;
   z-index: 1;
-  transition: 1s;
+  transition: 0.5s ease-in;
   box-shadow: var(--box-shadow07);
 }
 
@@ -98,3 +98,26 @@ body {
 /*  border-radius: 50%;*/
 /*  box-shadow: 15px 18px  #000;*/
 /*}*/
+.navigation ul li:nth-child(1).active ~ .indicator {
+  transform: translateX(0);
+}
+
+.navigation ul li:nth-child(2).active ~ .indicator {
+  transform: translateX(calc(40px * 2));
+}
+
+.navigation ul li:nth-child(3).active ~ .indicator {
+  transform: translateX(calc(53px * 3));
+}
+
+.navigation ul li:nth-child(4).active ~ .indicator {
+  transform: translateX(calc(60px * 4));
+}
+
+.navigation ul li:nth-child(5).active ~ .indicator {
+  transform: translateX(calc(64px * 5));
+}
+.navigation ul li:nth-child(6).active ~ .indicator {
+  transform: translateX(calc(67px*6));
+}
+
