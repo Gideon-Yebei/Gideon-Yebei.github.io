@@ -22,6 +22,7 @@
   <link href="css/main.css" rel="stylesheet">
   <link href="css/reset.css" rel="stylesheet">
   <link href="css/nav.css" rel="stylesheet">
+  <link href="css/preloader.css" rel="stylesheet">
 
   <!--  material icons google-->
   <link
@@ -39,7 +40,41 @@
 
   <title>Gideon-Yebei | Software-Engineer</title>
 </head>
-<body>
+<body onload="loaded()">
+
+<!--preloader-->
+<div class="preloader">
+  <svg class="pl" height="200" viewBox="0 0 200 200" width="200" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="pl-grad1" x1="1" x2="0" y1="0.5" y2="0.5">
+        <stop offset="0%" stop-color="hsl(313,90%,55%)"/>
+        <stop offset="100%" stop-color="hsl(223,90%,55%)"/>
+      </linearGradient>
+      <linearGradient id="pl-grad2" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0%" stop-color="hsl(313,90%,55%)"/>
+        <stop offset="100%" stop-color="hsl(223,90%,55%)"/>
+      </linearGradient>
+    </defs>
+    <circle class="pl__ring" cx="100" cy="100" fill="none" r="82" stroke="url(#pl-grad1)" stroke-dasharray="0 257 1 257"
+            stroke-dashoffset="0.01" stroke-linecap="round" stroke-width="36"
+            transform="rotate(-90,100,100)"/>
+    <line class="pl__ball" stroke="url(#pl-grad2)" stroke-dasharray="1 165" stroke-linecap="round" stroke-width="36"
+          x1="100" x2="100.01"
+          y1="18" y2="182"/>
+  </svg>
+</div>
+<script>
+  let loader = document.querySelector(".pl");
+  let preloader = document.querySelector(".preloader")
+
+  function loaded() {
+    setTimeout(() => {
+      loader.style.display = "none";
+      preloader.style.zIndex = "-999"
+    }, 5000);
+  }
+</script>
+
 <div class="navigation">
   <ul role="list">
     <li class="list active">
