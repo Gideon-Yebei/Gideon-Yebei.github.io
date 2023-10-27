@@ -10,7 +10,7 @@
   Welcome to my personal portfolio GitHub page! 🚀 This repository is where I showcase my projects, skills, and experiences. Feel free to explore the code and the various projects I've worked on.
 </div>
 
-## <h1 align="center"><code>About Me</code></h1>
+## <h1><code>About Me</code></h1>
 <p>
 I'm <code>Gideon-Yebei</code> 👨‍💻, and I'm on a journey to explore the world of technology. 
 I'm passionate about <code>Desktop/Mobile App Development,</code> <code>web development,</code> <code>machine learning (AI/ML),</code> <code>Java development,</code> <code>data science.</code>
@@ -37,18 +37,18 @@ This portfolio is a representation of my journey and the work I've done so far.
 (Add more projects as needed.)
 -->
 
-## <code> 💼 Skills</code>
+## <code>💼 Skills</code>
 <!--
 - List your technical skills, e.g., programming languages, frameworks, and tools.
 - Mention any non-technical skills relevant to your field, such as project management or teamwork.
 -->
 - <code>**Web Development**</code>: HTML, CSS, JavaScript, React
-- **AI/ML**: Python, TensorFlow, scikit-learn
-- **Java Development**: Java, Spring Framework
-- **Problem Solving**: Critical thinking, algorithm design, software development
+- <code>**AI/ML**</code>: Python, TensorFlow, scikit-learn
+- <code>**Java Development**</code>: Java, Spring Framework
+- <code>**Problem Solving**</code>: Critical thinking, algorithm design, software development
 
-## 🎓 Education
-
+## <code>🎓 Education</code>
+- <code>**B.Sc. in Computer Science**</code> - Kenyatta University, [ 2022-2026 ]
 - **[Degree] in [Field]** - [University/Institution], [Year]
 - **[Degree] in [Field]** - [University/Institution], [Year]
 
