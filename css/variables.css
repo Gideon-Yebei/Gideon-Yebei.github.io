@@ -1,4 +1,5 @@
-:root {
+:root
+{
   --color1: #86898c;
   --color2: #A7A9AB;
   --color3: #7c7d80;
@@ -43,32 +44,42 @@
     inset -4px -4px 8px #33353b,
     inset 4px 4px 8px #151618;
   --gradient: linear-gradient(45deg,
-  #845ec2,
-  #d65db1,
-  #ff6f91,
-  #ff9671,
-  #ffc75f,
-  #f9f871);
+      #845ec2,
+      #d65db1,
+      #ff6f91,
+      #ff9671,
+      #ffc75f,
+      #f9f871);
   /* gradient */
+  --bg-color: #e3edf7;
+  --gradient-white-bg: linear-gradient(0deg, #fff 0%, #edf4fa 51%, #e5eef7 100%);
+  --gradient-color-bg: linear-gradient(180deg, rgba(247, 1, 120, 1)0%,
+      rgba(160, 8, 156, 1)51%,
+      rgba(99, 13, 178, 1)100%);
+  --main-color: #e6006d;
+  --font-color: #90979f;
+  --hover-box-shadow: rgba(0, 0, 0, 0.19)0px 10px 20px,
+    rgba(0, 0, 0, 0.23)0px 6px 6px;
+  --gradient-white-bg2: linear-gradient(98deg, #e5eef7 0%, #fff 100%);
 
   --bg-gradient-onyx: linear-gradient(to bottom right,
-  hsl(240, 1%, 25%) 3%,
-  hsl(0, 0%, 19%) 97%);
+      hsl(240, 1%, 25%) 3%,
+      hsl(0, 0%, 19%) 97%);
   --bg-gradient-jet: linear-gradient(to bottom right,
-  hsla(240, 1%, 18%, 0.251) 0%,
-  hsla(240, 2%, 11%, 0) 100%), hsl(240, 2%, 13%);
+      hsla(240, 1%, 18%, 0.251) 0%,
+      hsla(240, 2%, 11%, 0) 100%), hsl(240, 2%, 13%);
   --bg-gradient-yellow-1: linear-gradient(to bottom right,
-  hsl(45, 100%, 71%) 0%,
-  hsla(36, 100%, 69%, 0) 50%);
+      hsl(45, 100%, 71%) 0%,
+      hsla(36, 100%, 69%, 0) 50%);
   --bg-gradient-yellow-2: linear-gradient(135deg,
-  hsla(45, 100%, 71%, 0.251) 0%,
-  hsla(35, 100%, 68%, 0) 59.86%), hsl(240, 2%, 13%);
+      hsla(45, 100%, 71%, 0.251) 0%,
+      hsla(35, 100%, 68%, 0) 59.86%), hsl(240, 2%, 13%);
   --border-gradient-onyx: linear-gradient(to bottom right,
-  hsl(0, 0%, 25%) 0%,
-  hsla(0, 0%, 25%, 0) 50%);
+      hsl(0, 0%, 25%) 0%,
+      hsla(0, 0%, 25%, 0) 50%);
   --text-gradient-yellow: linear-gradient(to right,
-  hsl(45, 100%, 72%),
-  hsl(35, 100%, 68%));
+      hsl(45, 100%, 72%),
+      hsl(35, 100%, 68%));
 
   /* solid */
 

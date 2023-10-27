@@ -11,8 +11,9 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
-  color: #222;
+html
+{
+  /*color: #222;*/
   font-size: 1em;
   line-height: 1.4;
 }
@@ -27,12 +28,14 @@ html {
  * Customize the background color to match your design.
  */
 
-::-moz-selection {
+::-moz-selection
+{
   background: #b3d4fc;
   text-shadow: none;
 }
 
-::selection {
+::selection
+{
   background: #b3d4fc;
   text-shadow: none;
 }
@@ -41,7 +44,8 @@ html {
  * A better looking default horizontal rule
  */
 
-hr {
+hr
+{
   display: block;
   height: 1px;
   border: 0;
@@ -61,7 +65,8 @@ canvas,
 iframe,
 img,
 svg,
-video {
+video
+{
   vertical-align: middle;
 }
 
@@ -69,7 +74,8 @@ video {
  * Remove default fieldset styles.
  */
 
-fieldset {
+fieldset
+{
   border: 0;
   margin: 0;
   padding: 0;
@@ -79,7 +85,8 @@ fieldset {
  * Allow only vertical resizing of textareas.
  */
 
-textarea {
+textarea
+{
   resize: vertical;
 }
 
@@ -96,7 +103,8 @@ textarea {
  */
 
 .hidden,
-[hidden] {
+[hidden]
+{
   display: none !important;
 }
 
@@ -109,7 +117,8 @@ textarea {
  *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
  */
 
-.sr-only {
+.sr-only
+{
   border: 0;
   clip: rect(0, 0, 0, 0);
   height: 1px;
@@ -129,7 +138,8 @@ textarea {
  */
 
 .sr-only.focusable:active,
-.sr-only.focusable:focus {
+.sr-only.focusable:focus
+{
   clip: auto;
   height: auto;
   margin: 0;
@@ -143,7 +153,8 @@ textarea {
  * Hide visually and from screen readers, but maintain layout
  */
 
-.invisible {
+.invisible
+{
   visibility: hidden;
 }
 
@@ -160,12 +171,14 @@ textarea {
  */
 
 .clearfix::before,
-.clearfix::after {
+.clearfix::after
+{
   content: " ";
   display: table;
 }
 
-.clearfix::after {
+.clearfix::after
+{
   clear: both;
 }
 
@@ -175,14 +188,16 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 35em)
+{
   /* Style adjustments for viewports that meet the condition */
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi)
+{
   /* Style adjustments for high resolution devices */
 }
 
@@ -192,10 +207,13 @@ textarea {
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-@media print {
+@media print
+{
+
   *,
   *::before,
-  *::after {
+  *::after
+  {
     background: #fff !important;
     color: #000 !important;
     /* Black prints faster */
@@ -204,15 +222,18 @@ textarea {
   }
 
   a,
-  a:visited {
+  a:visited
+  {
     text-decoration: underline;
   }
 
-  a[href]::after {
+  a[href]::after
+  {
     content: " (" attr(href) ")";
   }
 
-  abbr[title]::after {
+  abbr[title]::after
+  {
     content: " (" attr(title) ")";
   }
 
@@ -221,16 +242,19 @@ textarea {
    * or use the `javascript:` pseudo protocol
    */
   a[href^="#"]::after,
-  a[href^="javascript:"]::after {
+  a[href^="javascript:"]::after
+  {
     content: "";
   }
 
-  pre {
+  pre
+  {
     white-space: pre-wrap !important;
   }
 
   pre,
-  blockquote {
+  blockquote
+  {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
@@ -239,25 +263,28 @@ textarea {
    * Printing Tables:
    * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
    */
-  thead {
+  thead
+  {
     display: table-header-group;
   }
 
   tr,
-  img {
+  img
+  {
     page-break-inside: avoid;
   }
 
   p,
   h2,
-  h3 {
+  h3
+  {
     orphans: 3;
     widows: 3;
   }
 
   h2,
-  h3 {
+  h3
+  {
     page-break-after: avoid;
   }
 }
-

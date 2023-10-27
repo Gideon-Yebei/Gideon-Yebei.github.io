@@ -1,29 +1,30 @@
-*{
+*
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background:  linear-gradient(
-  #845ec2,
-  #d65db1,
-  #ff6f91,
-  #ff9671,
-  #ffc75f,
-  #f9f871);
+  background: linear-gradient(#845ec2,
+      #d65db1,
+      #ff6f91,
+      #ff9671,
+      #ffc75f,
+      #f9f871);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-background-size: 100%;
-  overflow: hidden;
+  background-size: 100%;
+  /*overflow: hidden;*/
 }
 
-html{
-  font-size: 62.5%; /* 1rem = 10px */
-}
+/*html{*/
+/*font-size: 62.5%; !* 1rem = 10px *!*/
+/*}*/
 
-body{
+body
+{
   background: linear-gradient(to bottom right,
-  hsl(240, 1%, 25%) 3%,
-  hsl(0, 0%, 19%) 97%);
+      hsl(240, 1%, 25%) 3%,
+      hsl(0, 0%, 19%) 97%);
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.7;
@@ -34,38 +35,45 @@ body{
   height: 100vh;
 }
 
-.main-title{
+.main-title
+{
   text-align: center;
   margin-top: 4rem;
   margin-bottom: 8rem;
 
 }
 
-.main-title h1{
+.main-title h1
+{
   font-size: 7rem;
   text-transform: uppercase;
   font-weight: 800;
   color: #555;
 }
-.main-title h2{
+
+.main-title h2
+{
   font-size: 7rem;
   font-weight: 800;
   text-transform: uppercase;
 }
 
-.svg-img{
+.svg-img
+{
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
 }
 
-svg{
+svg
+{
   display: block;
   margin: auto;
 }
 
-#clock{
+#clock
+{
   animation: clockHand 5s infinite linear;
 
 
@@ -73,25 +81,30 @@ svg{
   transform-origin: bottom;
 }
 
-#leftTree, #rightTree{
+#leftTree,
+#rightTree
+{
   animation: tree 2s ease-in-out infinite alternate;
   transform-box: fill-box;
   transform-origin: bottom;
 }
 
-#man{
+#man
+{
   animation: manBody 1s ease-in-out infinite alternate;
   transform-box: fill-box;
   transform-origin: bottom;
 }
 
-#pc-circle{
+#pc-circle
+{
   fill: #6ace66;
   stroke-width: 4;
   animation: change-light 4s linear infinite alternate;
 }
 
-.footer {
+.footer
+{
   position: absolute;
   bottom: 40px;
   width: 100%;
@@ -101,59 +114,82 @@ svg{
   font-size: 1.5rem;
 }
 
-@keyframes clockHand{
-  from{
+@keyframes clockHand
+{
+  from
+  {
     transform: rotateZ(0deg);
   }
-  from{
+
+  from
+  {
     transform: rotateZ(-360deg);
   }
 }
 
-@keyframes manBody{
-  from{
+@keyframes manBody
+{
+  from
+  {
     transform: rotateX(0deg);
   }
-  to{
+
+  to
+  {
     transform: rotateX(10deg);
   }
 }
 
-@keyframes tree{
-  from{
+@keyframes tree
+{
+  from
+  {
     transform: rotateZ(10deg);
   }
-  to{
+
+  to
+  {
     transform: rotateZ(-20deg);
   }
 }
 
-@keyframes change-light {
-  0% {
+@keyframes change-light
+{
+  0%
+  {
     stroke: #cd61f8;
   }
-  25% {
+
+  25%
+  {
     stroke: #6ace66;
   }
-  75% {
+
+  75%
+  {
     stroke: #2995c0;
   }
-  100% {
+
+  100%
+  {
     stroke: #e92949;
   }
 }
 
 /* Media Queries */
 
-@media (min-width: 640px){
-  .main-title h1{
+@media (min-width: 640px)
+{
+  .main-title h1
+  {
     font-size: 5rem;
     text-transform: uppercase;
     font-weight: 700;
     color: #555;
   }
 
-  .main-title h2{
+  .main-title h2
+  {
     font-size: 3rem;
     font-weight: 300;
     text-transform: uppercase;
@@ -162,15 +198,18 @@ svg{
 
 }
 
-@media (min-width: 768px){
-  .main-title h1{
+@media (min-width: 768px)
+{
+  .main-title h1
+  {
     font-size: 6rem;
     text-transform: uppercase;
     font-weight: 800;
     color: #555;
   }
 
-  .main-title h2{
+  .main-title h2
+  {
     font-size: 4rem;
     font-weight: 300;
     text-transform: uppercase;
@@ -179,16 +218,19 @@ svg{
 
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1024px)
+{
 
-  .main-title h1{
+  .main-title h1
+  {
     font-size: 7rem;
     text-transform: uppercase;
     font-weight: 900;
     color: #555;
   }
 
-  .main-title h2{
+  .main-title h2
+  {
     font-size: 5rem;
     font-weight: 300;
     text-transform: uppercase;
@@ -196,22 +238,26 @@ svg{
 
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1200px)
+{
 
-  .main-title h1{
+  .main-title h1
+  {
     font-size: 8rem;
     text-transform: uppercase;
     font-weight: 900;
     color: #555;
   }
 
-  .main-title h2{
+  .main-title h2
+  {
     font-size: 5rem;
     font-weight: 300;
     text-transform: uppercase;
   }
 
-  .main-title{
+  .main-title
+  {
     text-align: center;
     margin-top: 4rem;
     margin-bottom: 4rem;

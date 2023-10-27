@@ -1,7 +1,32 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/*body {*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*  min-height: 100vh;*/
+/*  background: var(--bg03);*/
+/*}*/
+
+.layer
+{
+  position: absolute;
+  width: 100%;
   min-height: 100vh;
-  background: var(--bg03);
+  margin-left: 200%;
+  overflow-x: hidden;
+  transition: 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  box-shadow: 0 0 5px rgba(0, 0, 0, .5),
+    0 0 10px rgba(0, 0, 0, .5),
+    0 0 20px rgba(0, 0, 0, .5);
+}
+
+.layer .main
+{
+  width: 200px;
+  height: 100vh;
+}
+
+.layer.active
+{
+  margin-left: 0;
+  transition-delay: .7s;
 }
