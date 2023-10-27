@@ -22,11 +22,11 @@ This portfolio is a representation of my journey and the work I've done so far.
 
 ### <code>Project 1: [ Image Search Engine ]</code>
 
-- **Description**: Briefly describe the project and its purpose.
-- **Technologies**: List the technologies and tools used in this project.
+- **Description**: A simple image search engine
+- **Technologies**:Unsplash API,HTML/CSS/JS.
 - **GitHub Link**: [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-<COLOR>.svg)](GitHubRepoLink)
 - **Live Demo**: [![Live Demo](https://img.shields.io/badge/Live-Demo-<COLOR>.svg)](LiveDemoLink)
-
+<!--
 ### Project 2: [Project Name]
 
 - **Description**: Briefly describe the project and its purpose.
@@ -35,6 +35,7 @@ This portfolio is a representation of my journey and the work I've done so far.
 - **Live Demo**: [![Live Demo](https://img.shields.io/badge/Live-Demo-<COLOR>.svg)](LiveDemoLink)
 
 (Add more projects as needed.)
+-->
 
 ## 💼 Skills
 
