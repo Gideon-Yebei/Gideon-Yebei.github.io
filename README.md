@@ -18,7 +18,7 @@ I'm passionate about <code>Desktop/Mobile App Development,</code> <code>web deve
 I'm a problem solver and a computer science enthusiast. I'm always looking for new challenges and opportunities to learn and grow. 
 This portfolio is a representation of my journey and the work I've done so far.
 </p>
-## 🚀 Projects
+## <code>🚀 Projects</code>
 
 ### Project 1: [Project Name]
 
