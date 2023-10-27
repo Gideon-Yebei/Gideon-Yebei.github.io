@@ -54,23 +54,23 @@ This portfolio is a representation of my journey and the work I've done so far.
 ## <code>🌟 Experience</code>
 - <code>**Junior JAVA Developer**</code>
 - <code>**Junior VB.NET Developer**</code>
+- <code>**Junior WEB Developer**</code>
+<!--
+### [Job Title] at [Company], [Dates]
+
+- Describe  role, responsibilities, and accomplishments at this position.
 
 ### [Job Title] at [Company], [Dates]
 
-- Describe your role, responsibilities, and accomplishments at this position.
+- Describe  role, responsibilities, and accomplishments at this position.
 
-### [Job Title] at [Company], [Dates]
-
-- Describe your role, responsibilities, and accomplishments at this position.
-
-(Add more work experiences as needed.)
-
+( more work experiences as needed.)
+-->
 ## 📫 Contact
 
-- Email: [Your Email Address] 📧
-- LinkedIn: [Your LinkedIn Profile] [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-<COLOR>.svg)](LinkedInProfileLink)
-- Twitter: [Your Twitter Handle] [![Twitter](https://img.shields.io/badge/Twitter-Handle-<COLOR>.svg)](TwitterHandleLink)
-- Personal Website: [Your Website URL] (if applicable) 🌐
+- Email: [hk-axl-coder@roton.me] 📧
+- LinkedIn: [Gideon Yebei] [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-<COLOR>.svg)](https://ke.linkedin.com/in/gideon-yebei-5a6b39294)
+- Personal Website: [gideon-rop-ke.42web.io] (if applicable) 🌐
 
 ## License
 
