@@ -3,9 +3,7 @@
   <br>
   <B>Gideon-Yebei</B>
   <br/>
-  My Personal Portfolio 
-  <br/>
-  [![](https://github.com/Gideon-Yebei/Gideon-Yebei.github.io/blob/main/img/removebg-preview.png)]()
+  <a href="#">My Personal Portfolio </a>
 </h1>
 
 <div align="center">
