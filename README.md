@@ -12,10 +12,10 @@
 
 ## <h1><code>About Me</code></h1>
 <p>
-I'm <code>Gideon-Yebei</code> 👨‍💻, and I'm on a journey to explore the world of technology. 
+I'm <code>Gideon-Yebei</code> 👨‍💻, and I'm on a journey to explore the world of technology.
 I'm passionate about <code>Desktop/Mobile App Development,</code> <code>web development,</code> <code>machine learning (AI/ML),</code> <code>Java development,</code> <code>data science.</code>
 <br/>
-I'm a problem solver and a computer science enthusiast. I'm always looking for new challenges and opportunities to learn and grow. 
+I'm a problem solver and a computer science enthusiast. I'm always looking for new challenges and opportunities to learn and grow.
 This portfolio is a representation of my journey and the work I've done so far.
 </p>
 ## <code>🚀 Projects</code>
@@ -46,7 +46,7 @@ This portfolio is a representation of my journey and the work I've done so far.
 - <code>**AI/ML**</code>: Python, TensorFlow, scikit-learn
 - <code>**Java Development**</code>: Java, Spring Framework
 - <code>**VB:NET Developer**</code>: .NET Framework
-- <code>**Problem Solving**</code>: Critical thinking, Object Oriented Analysis And Design, algorithm design, software development
+- <code>**Problem-Solving**</code>: Critical thinking, Object-Oriented Analysis And Design, algorithm design, software development
 
 ## <code>🎓 Education</code>
 - <code>**B.Sc. in Computer Science**</code> - Kenyatta University, [ 2022-2026 ]
@@ -74,6 +74,6 @@ This portfolio is a representation of my journey and the work I've done so far.
 
 ## <code>License</code>
 
-This portfolio is open-source under the [License Name] license. You can find the details in the [LICENSE](LICENSE) file.
+This portfolio is open-source under the [License Name] license. You can find the details in the [LICENSE](LICENSE.txt) file.
 
 Feel free to reach out if you have any questions, want to collaborate on a project, or just want to say hi. Thanks for visiting my GitHub page! 🙌
