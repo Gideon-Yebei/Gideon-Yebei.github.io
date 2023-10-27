@@ -20,7 +20,7 @@ This portfolio is a representation of my journey and the work I've done so far.
 </p>
 ## <code>🚀 Projects</code>
 
-### Project 1: [Project Name]
+### <code>Project 1: [ Image Search Engine ]</code>
 
 - **Description**: Briefly describe the project and its purpose.
 - **Technologies**: List the technologies and tools used in this project.
