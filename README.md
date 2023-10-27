@@ -37,10 +37,15 @@ This portfolio is a representation of my journey and the work I've done so far.
 (Add more projects as needed.)
 -->
 
-## 💼 Skills
-
+## <code> 💼 Skills</code>
+<!--
 - List your technical skills, e.g., programming languages, frameworks, and tools.
 - Mention any non-technical skills relevant to your field, such as project management or teamwork.
+-->
+- **Web Development**: HTML, CSS, JavaScript, React
+- **AI/ML**: Python, TensorFlow, scikit-learn
+- **Java Development**: Java, Spring Framework
+- **Problem Solving**: Critical thinking, algorithm design
 
 ## 🎓 Education
 
