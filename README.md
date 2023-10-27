@@ -6,7 +6,7 @@
   <a href="#">My Personal Portfolio </a>
 </h1>
 
-<div align="center">
+<div>
   Welcome to my personal portfolio GitHub page! 🚀 This repository is where I showcase my projects, skills, and experiences. Feel free to explore the code and the various projects I've worked on.
 </div>
 
