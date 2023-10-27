@@ -11,7 +11,7 @@
 </div>
 
 ## <h1 align="center">About Me</h1>
-<p align="center">
+<p>
 I'm [Gideon-Yebei] 👨‍💻, and I'm on a journey to explore the world of technology. 
 I'm passionate about [Desktop/Mobile App Development,web development, machine learning (AI/ML), Java development, data science].
 <br/>
