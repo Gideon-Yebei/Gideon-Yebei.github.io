@@ -12,8 +12,8 @@
 
 ## <h1 align="center">About Me</h1>
 <p>
-I'm [Gideon-Yebei] 👨‍💻, and I'm on a journey to explore the world of technology. 
-I'm passionate about <code>Desktop/Mobile App Development,</code> <code>web development,</code> <code>machine learning (AI/ML),</code> <code>Java development,</code> data science.</code>
+I'm <code>Gideon-Yebei</code> 👨‍💻, and I'm on a journey to explore the world of technology. 
+I'm passionate about <code>Desktop/Mobile App Development,</code> <code>web development,</code> <code>machine learning (AI/ML),</code> <code>Java development,</code> <code>data science.</code>
 <br/>
 I'm a problem solver and a computer science enthusiast. I'm always looking for new challenges and opportunities to learn and grow. 
 This portfolio is a representation of my journey and the work I've done so far.
