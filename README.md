@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="your-profile-picture.jpg" width="200" alt="Your Name">
+  <img src="https://github.com/Gideon-Yebei/Gideon-Yebei.github.io/blob/main/img/removebg-preview.png" width="200" alt="Your Name">
   <br>
   My Personal Portfolio
 </h1>
