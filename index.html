@@ -1,74 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta content="Gideon Yebei | Software-Engineer" name="description">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
 
-  <meta content="Gideon Yebei" property="og:title">
-  <meta content="Personal PortFolio" property="og:type">
-  <meta content="https://gideon-yebei.github.io" property="og:url">
-  <meta content="favicon.png" property="og:image">
-  <meta content="#fafafa" name="theme-color">
+  <head>
+    <meta charset="utf-8">
+    <meta content="Gideon Yebei | Software-Engineer" name="description">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
 
-  <!--  links to -->
-  <link href="site.webmanifest" rel="manifest">
-  <link href="icon.png" rel="apple-touch-icon">
-  <!-- Place favicon.ico in the root directory -->
-  <link href="favicon.png" rel="shortcut icon" type="image/x-icon">
+    <meta content="Gideon Yebei" property="og:title">
+    <meta content="Personal PortFolio" property="og:type">
+    <meta content="https://gideon-yebei.github.io" property="og:url">
+    <meta content="favicon.png" property="og:image">
+    <meta content="#fafafa" name="theme-color">
 
-  <!--  links to stylesheets-->
-  <link href="css/normalize.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link href="css/reset.css" rel="stylesheet">
-  <link href="css/nav.css" rel="stylesheet">
-  <link href="css/preloader.css" rel="stylesheet">
-  <link href="css/variables.css" rel="stylesheet">
+    <!--  links to -->
+    <link href="site.webmanifest" rel="manifest">
+    <link href="icon.png" rel="apple-touch-icon">
+    <!-- Place favicon.ico in the root directory -->
+    <link href="favicon.png" rel="shortcut icon" type="image/x-icon">
 
-  <link href="css/home.css" rel="stylesheet"/>
-  <link href="css/about.css" rel="stylesheet"/>
-  <link href="css/services.css" rel="stylesheet">
-  <link href="css/portfolio.css" rel="stylesheet"/>
-  <link href="css/blog.css" rel="stylesheet"/>
-  <link href="css/contact.css" rel="stylesheet"/>
-  <link href="css/style.css" rel="stylesheet"/>
+    <!--  links to stylesheets-->
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/preloader.css" rel="stylesheet">
+    <link href="css/variables.css" rel="stylesheet">
 
-  <title>Gideon-Yebei | Software-Engineer</title>
-</head>
-<body>
-<!--Main content start-->
+    <link href="css/home.css" rel="stylesheet" />
+    <link href="css/about.css" rel="stylesheet" />
+    <link href="css/services.css" rel="stylesheet">
+    <link href="css/portfolio.css" rel="stylesheet" />
+    <link href="css/blog.css" rel="stylesheet" />
+    <link href="css/contact.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
 
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Gideon-Yebei | Software-Engineer</title>
+  </head>
 
-<!--main content end-->
+  <body>
+    <!--Main content start-->
+    <!--NAVIGATION LINKS-->
+    <nav class="navigation">
+      <ul role="list">
+        <li class="list active">
+          <a href="#" onclick="home()">
+            <span class="icon">
+              <i class="fa fa-home"></i>
+            </span>
+            <span class="text">
+              HOME
+            </span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="#" onclick="about()">
+            <span class="icon">
+              <i class="fa fa-user-astronaut"></i>
+            </span>
+            <span class="text">
+              ABOUT
+            </span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="#" onclick="services()">
+            <span class="icon">
+              <i class="fa fa-sliders"></i>
+            </span>
+            <span class="text">
+              SERVICES
+            </span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="#" onclick="portfolio()">
+            <span class="icon">
+              <i class="fa-brands fa-stack-overflow"></i>
+            </span>
+            <span class="text">
+              PORTFOLIO
+            </span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="#" onclick="blog()">
+            <span class="icon">
+              <i class="fa fa-blog"></i>
+            </span>
+            <span class="text">
+              BLOG
+            </span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="#" onclick="contact()">
+            <span class="icon">
+              <i class="fa fa-paper-plane"></i>
+            </span>
+            <span class="text">
+              CONTACTS
+            </span>
+          </a>
+        </li>
+        <div class="indicator"></div>
+      </ul>
+    </nav>
 
-  <!-----------------LOCAL (HOME)----------------->
-  <script src="js/home.js"></script>
-  <!-----------------LOCAL (ABOUT)----------------->
-  <script src="js/about.js"></script>
-  <!-----------------LOCAL (SERVICES)----------------->
-  <script src="js/services.js"></script>
-  <!-----------------LOCAL (PORTFOLIO)----------------->
-  <script src="js/portfolio.js"></script>
-  <!-----------------LOCAL (BLOG)----------------->
-  <script src="js/blog.js"></script>
-  <!-----------------LOCAL (CONTACT)----------------->
-  <script src="js/contact.js"></script>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+    <!--main content end-->
+    <!--navigation javascript-->
+    <script>
+      const list = document.querySelectorAll( ".list" );
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () {
-      ga.q.push(arguments)
-    };
-    ga.q = [];
-    ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto');
-    ga('set', 'anonymizeIp', true);
-    ga('set', 'transport', 'beacon');
-    ga('send', 'pageview')
-  </script>
-  <script async src="https://www.google-analytics.com/analytics.js"></script>
-</body>
+      function activeLink ()
+      {
+        list.forEach( ( item ) =>
+          item.classList.remove( "active" ) );
+        this.classList.add( "active" );
+      }
+
+      list.forEach( ( item ) =>
+        item.addEventListener( "click", activeLink ) );
+    </script>
+    <!--navigation javascript-->
+
+    <!-----------------LOCAL (HOME)----------------->
+    <script src="js/home.js"></script>
+    <!-----------------LOCAL (ABOUT)----------------->
+    <script src="js/about.js"></script>
+    <!-----------------LOCAL (SERVICES)----------------->
+    <script src="js/services.js"></script>
+    <!-----------------LOCAL (PORTFOLIO)----------------->
+    <script src="js/portfolio.js"></script>
+    <!-----------------LOCAL (BLOG)----------------->
+    <script src="js/blog.js"></script>
+    <!-----------------LOCAL (CONTACT)----------------->
+    <script src="js/contact.js"></script>
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function ()
+      {
+        ga.q.push( arguments );
+      };
+      ga.q = [];
+      ga.l = +new Date;
+      ga( 'create', 'UA-XXXXX-Y', 'auto' );
+      ga( 'set', 'anonymizeIp', true );
+      ga( 'set', 'transport', 'beacon' );
+      ga( 'send', 'pageview' )
+    </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+  </body>
+
 </html>
