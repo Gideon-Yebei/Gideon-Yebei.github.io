@@ -50,7 +50,7 @@
   line-height: 65px;
   font-size: 2em;
   padding-bottom: 12px;
-  transition: 0.5s ease-in;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);;
 }
 
 .navigation ul li.active a .icon
@@ -64,7 +64,7 @@
   font-size: 1em;
   font-weight: 700;
   letter-spacing: 0.05em;
-  transition: 0.5s ease-in;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);;
   opacity: 0;
   transform: translateY(15px);
 }
@@ -85,7 +85,7 @@
   background: var(--bg01);
   border-radius: 50%;
   z-index: 1;
-  transition: 0.5s ease-in;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
   box-shadow: var(--box-shadow07);
 }
 
