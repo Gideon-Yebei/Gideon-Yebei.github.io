@@ -1,7 +1,7 @@
 <h1 align="center">
   <img src="https://github.com/Gideon-Yebei/Gideon-Yebei.github.io/blob/main/img/removebg-preview.png" width="200" alt="Gideon Yebei">
   <br>
-  <B>Gideon-Yebei</B>
+  <code><B>Gideon-Yebei</B></code>
   <br/>
   <a href="#">My Personal Portfolio </a>
 </h1>
@@ -10,7 +10,7 @@
   Welcome to my personal portfolio GitHub page! 🚀 This repository is where I showcase my projects, skills, and experiences. Feel free to explore the code and the various projects I've worked on.
 </div>
 
-## <h1 align="center">About Me</h1>
+## <h1 align="center"><code>About Me</code></h1>
 <p>
 I'm <code>Gideon-Yebei</code> 👨‍💻, and I'm on a journey to explore the world of technology. 
 I'm passionate about <code>Desktop/Mobile App Development,</code> <code>web development,</code> <code>machine learning (AI/ML),</code> <code>Java development,</code> <code>data science.</code>
