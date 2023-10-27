@@ -70,7 +70,7 @@ This portfolio is a representation of my journey and the work I've done so far.
 
 - <code>Email:</code> hk-axl-coder@roton.me 📧
 - <code>LinkedIn:</code> Gideon Yebei [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-<COLOR>.svg)](https://ke.linkedin.com/in/gideon-yebei-5a6b39294)
-- Personal Website: [gideon-rop-ke.42web.io] (if applicable) 🌐
+- <code>Personal Website:</code> <a href="gideon-rop-ke.42web.io">gideon-rop-ke.42web.io</a> (if applicable) 🌐
 
 ## License
 
