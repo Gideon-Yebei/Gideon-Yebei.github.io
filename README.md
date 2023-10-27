@@ -70,7 +70,8 @@ This portfolio is a representation of my journey and the work I've done so far.
 
 - <code>Email:</code> hk-axl-coder@roton.me 📧
 - <code>LinkedIn:</code> Gideon Yebei [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-<COLOR>.svg)](https://ke.linkedin.com/in/gideon-yebei-5a6b39294)
-- <code>Personal Website:</code> <a href="gideon-rop-ke.42web.io">gideon-rop-ke.42web.io</a> 🌐 [![LinkedIn](https://img.shields.io/badge/Website-%3CCOLOR%3E.svg)]
+- <code>Personal Website:</code> <a href="gideon-rop-ke.42web.io">gideon-rop-ke.42web.io</a> 🌐
+-
 ## License
 
 This portfolio is open-source under the [License Name] license. You can find the details in the [LICENSE](LICENSE) file.
