@@ -1,7 +1,8 @@
 <h1 align="center">
   <img src="https://github.com/Gideon-Yebei/Gideon-Yebei.github.io/blob/main/img/removebg-preview.png" width="200" alt="Gideon Yebei">
   <br>
-  <B>Gideon Yebei</B>
+  <B>Gideon-Yebei</B>
+  <br/>
   My Personal Portfolio
 </h1>
 
