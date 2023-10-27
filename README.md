@@ -3,7 +3,8 @@
   <br>
   <B>Gideon-Yebei</B>
   <br/>
-  My Personal Portfolio
+  My Personal Portfolio [![](https://github.com/Gideon-Yebei/Gideon-Yebei.github.io/blob/main/img/removebg-preview.png)]()
+   [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-<COLOR>.svg)](GitHubRepoLink)
 </h1>
 
 <div align="center">
