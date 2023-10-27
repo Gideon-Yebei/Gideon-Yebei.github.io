@@ -45,14 +45,15 @@ This portfolio is a representation of my journey and the work I've done so far.
 - <code>**Web Development**</code>: HTML, CSS, JavaScript, React
 - <code>**AI/ML**</code>: Python, TensorFlow, scikit-learn
 - <code>**Java Development**</code>: Java, Spring Framework
-- <code>**Problem Solving**</code>: Critical thinking, algorithm design, software development
+- <code>**VB:NET Developer**</code>: .NET Framework
+- <code>**Problem Solving**</code>: Critical thinking, Object Oriented Analysis And Design, algorithm design, software development
 
 ## <code>🎓 Education</code>
 - <code>**B.Sc. in Computer Science**</code> - Kenyatta University, [ 2022-2026 ]
-- **[Degree] in [Field]** - [University/Institution], [Year]
-- **[Degree] in [Field]** - [University/Institution], [Year]
 
-## 🌟 Experience
+## <code>🌟 Experience</code>
+- <code>**Junior JAVA Developer**</code>
+- <code>**Junior VB.NET Developer**</code>
 
 ### [Job Title] at [Company], [Dates]
 
