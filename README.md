@@ -66,10 +66,10 @@ This portfolio is a representation of my journey and the work I've done so far.
 
 ( more work experiences as needed.)
 -->
-## 📫 Contact
+## <code>📫 Contact</code>
 
-- Email: [hk-axl-coder@roton.me] 📧
-- LinkedIn: [Gideon Yebei] [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-<COLOR>.svg)](https://ke.linkedin.com/in/gideon-yebei-5a6b39294)
+- <code>Email:</code> hk-axl-coder@roton.me 📧
+- <code>LinkedIn:</code> Gideon Yebei [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-<COLOR>.svg)](https://ke.linkedin.com/in/gideon-yebei-5a6b39294)
 - Personal Website: [gideon-rop-ke.42web.io] (if applicable) 🌐
 
 ## License
