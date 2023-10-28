@@ -1,0 +1,129 @@
+.home {
+  /*position: relative;*/
+  /*width: 100%;*/
+  /*min-height: 100vh;*/
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.greet {
+  margin: 20px;
+}
+
+.hand-wave {
+  animation-name: wave-animation;
+  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;
+  /* Change to speed up or slow down */
+  animation-iteration-count: infinite;
+  /* Never stop waving     :) */
+  transform-origin: 70% 70%;
+  /* Pivot around the bottom-left palm */
+  float: left;
+  padding-inline: 10px;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: rotate(18deg);
+  }
+
+  /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-10deg);
+  }
+
+  30% {
+    transform: rotate(18deg);
+  }
+
+  40% {
+    transform: rotate(-8deg);
+  }
+
+  50% {
+    transform: rotate(15deg);
+  }
+
+  60% {
+    transform: rotate(0deg);
+  }
+
+  /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.typewriter {
+  transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) ease-in;
+}
+
+.ty
+
+/*
+.typewriter h2
+{
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: transparent;
+  -webkit-text-stroke: 0.1vw #770753;
+  background: var(--gradient-color-bg);
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  transition: 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  animation: moveText 3s linear infinite;
+  animation-delay: 2s;
+}
+  */
+
+/*
+.typewriter h2::before
+{
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: -3px;
+  width: 0;
+  height: 70%;
+  border-right: 2px solid var(--main-color);
+  animation: moveCursorText 3s linear infinite;
+  animation-delay: 2s;
+}
+*/
+
+@keyframes moveText {
+
+  0%,
+  10%,
+  100% {
+    background-position: -24rem 0;
+  }
+
+  65%,
+  85% {
+    background-position: 0 0;
+  }
+}
+
+.logo {
+  float: left;
+  top: 0;
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 5px 0 5px #00000063,
+  10px 0 1px #0000004d,
+  5px 0 5px #00000063,
+  10px 0 1px #0000004d,
+  20px 0 20px #0000004d,
+  20px 0 20px #0000004d;
+}
