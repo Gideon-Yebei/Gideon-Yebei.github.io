@@ -331,6 +331,29 @@ body
 }
 
 /*  */
+
+/*LAYERS START*/
+.layer
+{
+    position: absolute;
+    /*margin-left: 200%;*/
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5),
+        0 0 10px rgba(0, 0, 0, .5),
+        0 0 20px rgba(0, 0, 0, .5);
+    opacity: 0;
+}
+
+.layer.active
+{
+    opacity: 1;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/*layers end*/
 /* NAVIGATION CSS START */
 .navigation
 {
@@ -598,7 +621,8 @@ body
         20px 0 20px #0000004d;
 }
 
-/**HOME CSS END**//**HOME CSS START**/
+/**HOME CSS END**/
+/**HOME CSS START**/
 .home
 {
     /*position: relative;*/
