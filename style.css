@@ -351,6 +351,21 @@ body
 {
     opacity: 1;
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation: page 1s cubic-bezier(.04, .79, .49, .93) forwards;
+}
+
+@keyframes page {
+
+    /* animation: page 1s 1s cubic-bezier(.04, .79, .49, .93) forwards;*/
+    from {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
 
 /*layers end*/
