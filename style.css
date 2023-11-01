@@ -783,4 +783,56 @@ body
         20px 0 20px #0000004d;
 }
 
-/**HOME CSS END**/
+/**CONTACT CSS END**/
+.contactSkills {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.contact-info,
+.skills {
+    width: 95vw;
+    background: var(--bg-gradient-yellow-2);
+    /* box-shadow: rgba(0, 0, 0, 0.18)0px 2px 4px;*/
+    box-shadow: var(--box-shadow01);
+    margin-top: 20px;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.contact-info input,
+.contact-info form textarea {
+    border-radius: 5px;
+}
+
+.contact-info form input,
+.contact-info form textarea {
+    padding: 0.8rem;
+    border: 2px solid var(--color2);
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    outline: none;
+    transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.contact-info form .input-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-box input {
+    width: 49%;
+}
+
+form textarea {
+    resize: none;
+}
+
+form .btn {
+    padding: 15px 20px;
+    cursor: pointer;
+    border: none;
+}
+
+/**CONTACT CSS END**/
