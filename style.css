@@ -149,7 +149,8 @@
 
 ::selection
 {
-    background-color: rgba(106, 40, 145, 0.7);
+    /*background-color: rgba(106, 40, 145, 0.7);*/
+    background-color: rgba(0, 0, 0, 0);
 }
 
 html
@@ -397,6 +398,7 @@ body
     width: 80px;
     height: 60px;
     z-index: 2;
+    outline: none
 }
 
 .navigation ul li a
