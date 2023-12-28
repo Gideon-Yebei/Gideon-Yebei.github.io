@@ -1,78 +1,70 @@
-<h1 align="center">
-  <img src="https://github.com/Gideon-Yebei/Gideon-Yebei.github.io/blob/main/img/removebg-preview.png" width="200" alt="Gideon Yebei">
-  <br>
-  <code><B>Gideon-Yebei</B></code>
-  <br/>
-  <a href="#">My Personal Portfolio </a>
-</h1>
+# Getting Started with Create React App
 
-<div>
-  Welcome to my personal portfolio GitHub page! 🚀 This repository is where I showcase my projects, skills, and experiences. Feel free to explore the code and the various projects I've worked on.
-</div>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## <h1><code>About Me</code></h1>
-<p>
-I'm <code>Gideon-Yebei</code> 👨‍💻, and I'm on a journey to explore the world of technology.
-I'm passionate about <code>Desktop/Mobile App Development,</code> <code>web development,</code> <code>machine learning (AI/ML),</code> <code>Java development,</code> <code>data science.</code>
-<br/>
-I'm a problem solver and a computer science enthusiast. I'm always looking for new challenges and opportunities to learn and grow.
-This portfolio is a representation of my journey and the work I've done so far.
-</p>
-## <code>🚀 Projects</code>
+## Available Scripts
 
-### <code>Project 1: [ Image Search Engine ]</code>
+In the project directory, you can run:
 
-- **Description**: A simple image search engine
-- **Technologies**: Unsplash API, HTML/CSS/JS.
-- **GitHub Link**: [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-<COLOR>.svg)](https://github.com/Gideon-Yebei/IMAGE-SEARCH-ENGINE)
-- **Live Demo**: [![Live Demo](https://img.shields.io/badge/Live-Demo-<COLOR>.svg)](https://image-search-engine-eight-mauve.vercel.app/)
-<!--
-### Project 2: [Project Name]
+### `npm start`
 
-- **Description**: Briefly describe the project and its purpose.
-- **Technologies**: List the technologies and tools used in this project.
-- **GitHub Link**: [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-<COLOR>.svg)](GitHubRepoLink)
-- **Live Demo**: [![Live Demo](https://img.shields.io/badge/Live-Demo-<COLOR>.svg)](LiveDemoLink)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-(Add more projects as needed.)
--->
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## <code>💼 Skills</code>
-<!--
-- List your technical skills, e.g., programming languages, frameworks, and tools.
-- Mention any non-technical skills relevant to your field, such as project management or teamwork.
--->
-- <code>**Web Development**</code>: HTML, CSS, JavaScript, React
-- <code>**AI/ML**</code>: Python, TensorFlow, scikit-learn
-- <code>**Java Development**</code>: Java, Spring Framework
-- <code>**VB:NET Developer**</code>: .NET Framework
-- <code>**Problem-Solving**</code>: Critical thinking, Object-Oriented Analysis And Design, algorithm design, software development
+### `npm test`
 
-## <code>🎓 Education</code>
-- <code>**B.Sc. in Computer Science**</code> - Kenyatta University, [ 2022-2026 ]
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## <code>🌟 Experience</code>
-- <code>**Junior JAVA Developer**</code>
-- <code>**Junior VB.NET Developer**</code>
-- <code>**Junior WEB Developer**</code>
-<!--
-### [Job Title] at [Company], [Dates]
+### `npm run build`
 
-- Describe  role, responsibilities, and accomplishments at this position.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### [Job Title] at [Company], [Dates]
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- Describe  role, responsibilities, and accomplishments at this position.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-( more work experiences as needed.)
--->
-## <code>📫 Contact</code>
+### `npm run eject`
 
-- <code>Email:</code> hk-axl-coder@roton.me 📧
-- <code>LinkedIn:</code> Gideon Yebei [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-<COLOR>.svg)](https://ke.linkedin.com/in/gideon-yebei-5a6b39294)
-- <code>Personal Website 🌐:[gideon-rop-ke.42web.io](http://www.gideon-rop-ke.42web.io)
-## <code>License</code>
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-This portfolio is open-source under the [License Name] license. You can find the details in the [LICENSE](LICENSE.txt) file.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Feel free to reach out if you have any questions, want to collaborate on a project, or just want to say hi. Thanks for visiting my GitHub page! 🙌
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
