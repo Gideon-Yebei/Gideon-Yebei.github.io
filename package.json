@@ -13,8 +13,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,7 +37,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1",
-    "homepage": "https://Gideon-Yebei.github.io"
+    "gh-pages": "^6.1.1"
   }
 }
