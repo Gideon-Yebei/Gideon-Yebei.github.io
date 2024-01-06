@@ -20,6 +20,10 @@
 
 .about__me-image
 {
+    background: linear-gradient(45deg,
+            transparent,
+            var(--color-primary),
+            transparent);
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
@@ -120,7 +124,9 @@
     {
         text-align: center;
     }
-    .about__content p{
+
+    .about__content p
+    {
         margin: 1.5rem 0;
     }
 }
