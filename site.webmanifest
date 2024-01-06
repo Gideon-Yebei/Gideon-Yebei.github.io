@@ -15,6 +15,6 @@
     ],
     "theme_color": "#352a4c",
     "background_color": "#352a4c",
-    "start_url": "https://gideon-yebei.vercel.app/",
+    "start_url": "https://gideon-yebei.github.io/",
     "display": "standalone"
 }
