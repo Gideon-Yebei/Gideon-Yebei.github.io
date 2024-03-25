@@ -1,11 +1,12 @@
 import './assets/main.css';
 
+import { inject } from "@vercel/analytics";
 import { injectSpeedInsights } from '@vercel/speed-insights';
-
-injectSpeedInsights();
-
 import { createPinia } from 'pinia';
 import { createApp } from 'vue';
+
+injectSpeedInsights();
+inject();
 
 import App from './App.vue';
 import router from './router';
