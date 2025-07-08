@@ -1,0 +1,69 @@
+<IfModule mod_headers.c>
+	# Enable CORS for all resources
+	Header set Access-Control-Allow-Origin "*"
+	Header set Access-Control-Allow-Methods "*"
+	Header set Access-Control-Allow-Headers "*"
+	Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+
+	# Cache control (optional, adjust as needed)
+	<FilesMatch "\.(.*)$">
+		Header set Cache-Control "max-age=31536000, public"
+	</FilesMatch>
+</IfModule>
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+
+	# If an existing asset or directory is requested go to it as it is
+	RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [OR]
+	RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d
+	RewriteRule ^ - [L]
+
+	# If the requested resource doesn't exist, use index.html
+	RewriteRule ^ /index.html
+
+	# Redirect all requests to the base URL of the subdomain, unless there's a query string
+	RewriteCond %{REQUEST_URI} !^/$
+	RewriteCond %{QUERY_STRING} ^$
+	RewriteRule ^(.*)$ https://%{HTTP_HOST}/ [R=301,L]
+
+	# Redirect to HTTPS (optional, if your site supports HTTPS)
+	RewriteCond %{HTTP:X-Forwarded-Proto} !https
+	RewriteCond %{HTTPS} off
+	RewriteCond %{HTTP:CF-Visitor} !{"scheme":"https"}
+	RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+	# Redirect non-www or non-https to https://www
+	RewriteCond %{HTTP_HOST} !^www\. [OR]
+	RewriteCond %{HTTPS} off
+	RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+<IfModule mod_expires.c>
+	ExpiresActive on
+
+	ExpiresByType text/javascript "access plus 1 month"
+	ExpiresByType application/javascript "access plus 1 month"
+</IfModule>
+
+<Files ads.txt>
+	ForceType text/plain
+</Files>
+
+# Set MIME type for web manifest files
+AddType application/manifest+json .webmanifest
+AddType application/json .webmanifest
+
+# Prevent directory listing
+Options -Indexes
+
+# compress text, html, javascript, css, xml:
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript

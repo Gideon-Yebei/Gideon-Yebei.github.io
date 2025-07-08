@@ -1,0 +1,1 @@
+import{_ as o,L as t,o as r,w as n,h as a}from"./index-DEWy8rwd.js";import{V as s}from"./VContainer-C-Lh6lTc.js";const _={};function c(f,e){return r(),t(s,null,{default:n(()=>e[0]||(e[0]=[a("h1",null,"Home",-1)])),_:1,__:[0]})}const d=o(_,[["render",c]]);export{d as default};

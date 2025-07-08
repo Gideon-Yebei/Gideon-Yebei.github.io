@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://echosodyssey.rf.gd/sitemap.xml

@@ -1,0 +1,29 @@
+# <IfModule mod_headers.c>
+	# Enable CORS for all resources
+	Header set Access-Control-Allow-Origin "*"
+	Header set Access-Control-Allow-Methods "GET, POST, PUT, DELETE, OPTIONS"
+	Header set Access-Control-Allow-Headers "Origin, X-Requested-With, Content-Type, Accept"
+
+	# Cache control (optional, adjust as needed)
+	# <FilesMatch "\.(js|css|png|jpg|jpeg|gif|ico)$">
+		Header set Cache-Control "max-age=31536000, public"
+	# </FilesMatch>
+# </IfModule>
+
+# <IfModule mod_rewrite.c>
+	RewriteEngine On
+
+	# If an existing asset or directory is requested go to it as it is
+	RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f [OR]
+	RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -d
+	RewriteRule ^ - [L]
+
+	# If the requested resource doesn't exist, use index.html
+	RewriteRule ^ /index.html
+
+	# Redirect to HTTPS (optional, if your site supports HTTPS)
+	RewriteCond %{HTTP:X-Forwarded-Proto} !https
+	RewriteCond %{HTTPS} off
+	RewriteCond %{HTTP:CF-Visitor} !{"scheme":"https"}
+	RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# </IfModule>

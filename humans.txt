@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <Gideon-Yebei>      -- <Developer> -- <@Gideon-Yebei>
+
+# THANKS
+
+    <Gideon-Yebei>
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, JavaScript
+    Apache Server Configs
+    vercel
+    vuejs
